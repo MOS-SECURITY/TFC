@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-user=$(whoami)
-cd /home/$user/
-
-apt install ssh ftp apache2 samba-common mysql-client iptables
-
-
+apt install -y ssh ftp apache2 samba-common mysql-client \
+iptables rsync filezilla isc-dhcp-client \
+php7.4 javascript-common python3
