@@ -1,5 +1,17 @@
-Para adquirir los servicios de MOS-SECURITY, 
-deberá ejecutar el script mediante este método:
+                ################################################
+                ### PASOS PARA OBTENER NUESTRAS HERRAMIENTAS ###
+                ################################################
+Para adquirir los servicios de MOS-SECURITY,
+Tras contratar nuestros servicios y hayamos recibido el ingreso,
+os llegará un mensaje a vuestro buzón de correo 
+con un usuario y contraseña en el que iniciaréis sesión
+ en uno de los apartados de nuestra página web.
+
+Tras iniciar sesión os descargaréis los archivos:
+ script.sh y VPN-MOS-SECURITY-client-AUTORIDAD-MOS-SECURITY.tar.gz.
+
+Irá a su terminal con la combinación de teclas CTRL+ALT+T
+y deberá ejecutar el script mediante este método:
 
 sudo ./script.sh
 
