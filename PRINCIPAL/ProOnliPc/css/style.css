@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center fixed;
+  background: url(../img/hero.jpeg) top center fixed;
   background-size: cover;
 }
 
@@ -107,6 +107,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 48px;
   text-transform: uppercase;
   color: #fff;
+}
+
+.title-yellow {
+  color: #FFDB15;
 }
 
 @media (max-width: 768px) {
@@ -470,6 +474,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
+.support_service_img {
+  height: 400px;
+  width: 00px;
+}
+
 /* Get Started Section
 --------------------------------*/
 #about {
@@ -478,7 +487,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background: url(../img/about-img.jpg) left top no-repeat;
+  background: url(../img/soporte_informatico.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #about .about-content {
