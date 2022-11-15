@@ -474,6 +474,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
+.support_service_img {
+  height: 400px;
+  width: 00px;
+}
+
 /* Get Started Section
 --------------------------------*/
 #about {
@@ -482,7 +487,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background: url(../img/about-img.jpg) left top no-repeat;
+  background: url(../img/soporte_informatico.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #about .about-content {

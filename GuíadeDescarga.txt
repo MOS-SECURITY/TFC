@@ -1,7 +1,0 @@
-Para adquirir los servicios de MOS-SECURITY, 
-deberá ejecutar el script mediante este método:
-
-sudo ./script.sh
-
-Tecleará la contraseña de su superusuario del sistema y...
-¡¡¡A esperar mientras sucede la magia!!!
