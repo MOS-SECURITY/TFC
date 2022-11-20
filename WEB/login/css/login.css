@@ -7,7 +7,6 @@
 
 form {
 	padding: 50px 20px;
-	background-color: #381b1ba6;
 	margin-left: 30%;
 	margin-right: 30%;
 	margin-top: 70px;
@@ -45,12 +44,9 @@ input {
 	background-color: #a22;
 	color: #fff
 }
-.blanco{
- color: white;
- text-align: center;
-}
+
 body{
-	background-image:url(../img/logo.png);
+	background-image:url(./IMG/hero-bg.jpg);
 	width: 100%;
 	height:100%vh;
 	background-size: cover;
@@ -75,7 +71,6 @@ h6 {
 }
 .gabo{
 	padding: 50px 20px;
-	background-color: #381b1ba6;
 	margin: calc(25% + 100px);
 	margin-top: 70px;
 	padding-top: 28px;
@@ -115,10 +110,66 @@ header a{
 	top: -50px;
 	left: calc(50% - 50px);
 }
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #03C4EB;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #03C4EB;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+
 @media only screen and (min-width:360px) and (max-width:757px){
 	form {
 		padding: 50px 20px;
-		background-color: #381b1ba6;
 		margin-left: 5%;
 		margin-right: 5%;
 		margin-top: 70px;
@@ -146,7 +197,6 @@ header a{
 @media only screen and (min-width:280px) and (max-width:757px){
 	form {
 		padding: 50px 20px;
-		background-color: #381b1ba6;
 		margin-left: 5%;
 		margin-right: 5%;
 		margin-top: 70px;
@@ -174,7 +224,6 @@ header a{
 @media only screen and (min-width:760px) and (max-width:1180px){
 	form {
 		padding: 50px 20px;
-		background-color: #381b1ba6;
 		margin-left: 5%;
 		margin-right: 5%;
 		margin-top: 70px;
