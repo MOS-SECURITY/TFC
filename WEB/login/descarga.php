@@ -14,7 +14,7 @@
     <h1>Aquí os dejamos esl script que tenéis que ejecutar</h1>
     <br></br>
     <a href="descargas/script.sh" download="script.sh">SOFTWARE</a>
-    <h1 color="black">Al descargar el script y ejecutarlo,
+    <h1>Al descargar el script y ejecutarlo,
         con este archivo tenéis acceso a nuestrastra red</h1>
     <br></br>
     <a href="descargas/VPN-MOS-SECURITY-client-AUTORIDAD-MOS-SECURITY.tar.gz" download="VPN-MOS-SECURITY-client-AUTORIDAD-MOS-SECURITY.tar.gz">VPN</a>
