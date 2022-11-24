@@ -12,7 +12,7 @@ $filas=mysqli_num_rows($resultado);
 
 if($filas){
   
-    header("location:descarga.php");
+    header("location:descarga.html");
 
 }else{
     ?>
@@ -20,7 +20,9 @@ if($filas){
     include("login.html");
 
   ?>
-  <h1 class="bad">Usuario o contraseña incorrectos</h1>
+  <h1 class="bad">Usuario o contraseña incorrectos</h1> <br>
+  <h3 class="bad">¿O no tienes cuenta?</h3>
+  <h3 class="bad">¿Regístrate abajo!</h3>
   <?php
 }
 mysqli_free_result($resultado);

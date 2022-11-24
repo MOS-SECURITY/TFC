@@ -647,7 +647,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio {
   background: #fff;
   padding: 80px 0;
-}
+  }
 
 #portfolio .portfolio-item {
   background-position: center center;
@@ -706,6 +706,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+
+
 
 /* Testimonials Section
 --------------------------------*/
