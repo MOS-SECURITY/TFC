@@ -4,7 +4,7 @@ apt update -y
 
 apt install -y ssh openssh-server openssh-client ftp \
 apache2 samba-common mysql-client vsftpd \
-iptables rsync filezilla isc-dhcp-client \
+rsync filezilla isc-dhcp-client \
 php7.4 javascript-common python3 openvpn
 
 
@@ -13,6 +13,8 @@ read -p "Hola, escriba el nombre de usuario con el que trabaja: " user
 echo ""
 cd  /home/$user/Descargas
 ruta=$(pwd)
+echo "Para trabajar con VPN deberás partir siempre desde el escritotio"
+echo ""
 echo "Se encuentra en el directorio ${ruta}" 
 
 # DESCOMPRESIÓN Y LOGEO EN VPN DE ZENTYAL
