@@ -1,9 +1,20 @@
+<?php
+include('db.php');
+$usuario=$_POST['usuario'];
+$password=$_POST['password'];
+$correo=$_POST['correo'];
+
+$insert_into_db = $connect_db->prepare("INSERT INTO registro (usuario,correo,contraseña) VALUES ('$usuario','$correo','$password')");
+$insert_into_db ->execute();
+
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="css/login.css">
     <link rel="shortcut icon" href="../img/logo.png">
 
@@ -14,17 +25,16 @@
 <body>
 
 <div class="Caja ">
-  <form action="validar.php" method="post">
+  <form action="" method="post">
 <section class="form-register">
-    <h3 class="animate__animated animate__backInLeft">Gracias por contratar nuestros servicios</h3>
+    <h3 class="animate__animated animate__backInLeft">Registrate en MoS SECURITY</h3>
     <input class="controls" type="text" name="usuario" id="usuario" placeholder="Introduzca su usuario">
-   
-    <input class="controls" type="password" name="password" id="password" placeholder="Introduzca su contraseña">
+    <input class="controls" type="password" name="password" id="password" placeholder="Ingrese su contraseña">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
     
+    <input class="botons btn-success" type="submit" value="Registrarse">
+    <p><a href="./login.html">Volver a inicio de sesión</a></p>
     
-    <input class="botons btn-success" type="submit" value="Ingresar">
-    <p>¿No tienes cuenta?</p>
-    <a href="./registro.php"><b>Regístrate aquí</b></a>
   </section>
 </form>
 </div>

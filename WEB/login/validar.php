@@ -4,7 +4,7 @@ $usuario=$_POST['usuario'];
 $password=$_POST['password'];
 
 $consulta="SELECT * FROM registro where usuario='$usuario' and contraseña='$password'";
-$resultado=mysqli_query($conexion,$consulta);
+$resultado=mysqli_query($connect_db,$consulta);
 
 $filas=mysqli_num_rows($resultado);
 
@@ -24,5 +24,5 @@ if($filas){
   <?php
 }
 mysqli_free_result($resultado);
-mysqli_close($conexion);
+mysqli_close($connect_db);
 ?>
