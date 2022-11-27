@@ -2,7 +2,7 @@
 
 apt update -y
 
-apt install -y samba-common rsync ssh isc-dhcp-client apache2 php7.4 javascript-common python3 openvpn
+apt install -y samba-common rsync isc-dhcp-client apache2 php7.4 javascript-common python3 openvpn
 
 echo " "
 echo "Para trabajar con VPN deberás partir siempre desde el escritotio"
