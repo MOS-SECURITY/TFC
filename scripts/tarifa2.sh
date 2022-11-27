@@ -16,10 +16,10 @@ echo "Se encuentra en el directorio ${ruta}"
 
 # DESCOMPRESIÓN Y LOGEO EN VPN DE ZENTYAL
 
-tar xzvf MOS-SECURITY-client-MOS-SECURITY.tar.gz
+tar xzvf MOS-SECURITY-client-cliente-MOS-SECURITY.tar.gz
 mkdir MOS-VPN
-mv MOS-SECURITY-client.conf 5D650147FD170F7D.pem MOS-SECURITY.pem cacert.pem /home/$user/Descargas/MOS-VPN
-rm -r MOS-SECURITY-client-MOS-SECURITY.tar.gz
+mv MOS-SECURITY-client.conf 5D7FC5FE1FED3B6A.pem cliente-MOS-SECURITY.pem cacert.pem /home/$user/Descargas/MOS-VPN
+rm -r MOS-SECURITY-client-cliente-MOS-SECURITY.tar.gz
 chmod -R u+x MOS-VPN
 mv MOS-VPN /home/$user/Escritorio
 cd /home/$user/Escritorio/MOS-VPN
