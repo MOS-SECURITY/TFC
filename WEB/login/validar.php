@@ -3,9 +3,7 @@ include('db.php');
 $usuario=$_POST['usuario'];
 $password=$_POST['password'];
 
-
-
-$consulta="SELECT * FROM clientes where usuario='$usuario' and contraseña='$password'";
+$consulta="SELECT * FROM registro where usuario='$usuario' and contraseña='$password'";
 $resultado=mysqli_query($conexion,$consulta);
 
 $filas=mysqli_num_rows($resultado);
