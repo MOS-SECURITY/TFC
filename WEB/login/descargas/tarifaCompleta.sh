@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
-apt update -y
+# INSTALACIÓN DE SOFTWARE
 
-apt install -y ssh openssh-server openssh-client ftp apache2 samba-common mysql-client vsftpd rsync filezilla isc-dhcp-client php7.4 javascript-common python3 openvpn \
-curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY | gpg --dearmor -o /etc/apt/trusted.gpg.d/anydesk.gpg \
-echo "deb http://deb.anydesk.com/ all main" | tee /etc/apt/sources.list.d/anydesk-stable.list \
-apt update -y \
+apt install -y ssh openssh-server rsync ftp apache2 samba-common filezilla isc-dhcp-client php7.4 javascript-common python3 curl openvpn
+
+# INSTALACIÓN DE ANYDESK
+curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY | gpg --dearmor -o /etc/apt/trusted.gpg.d/anydesk.gpg
+echo "deb http://deb.anydesk.com/ all main" | tee /etc/apt/sources.list.d/anydesk-stable.list
+apt update -y
 apt install anydesk -y
 
 echo " "

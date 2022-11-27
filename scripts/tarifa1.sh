@@ -1,8 +1,14 @@
 #!/usr/bin/env bash
 
-apt update -y
+# INSTALACIÓN DE SOFTWARE
 
-apt install -y ssh openssh-server openssh-client vsftpd ftp filezilla javascript-common python3 apache2 php7.4 openvpn
+apt install -y apache2 samba-common rsync isc-dhcp-client php7.4 javascript-common python3 curl openvpn
+
+# INSTALACIÓN DE ANYDESK
+curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY | gpg --dearmor -o /etc/apt/trusted.gpg.d/anydesk.gpg
+echo "deb http://deb.anydesk.com/ all main" | tee /etc/apt/sources.list.d/anydesk-stable.list
+apt update -y
+apt install anydesk -y
 
 echo " "
 echo "Para trabajar con VPN deberás partir siempre desde el escritotio"
