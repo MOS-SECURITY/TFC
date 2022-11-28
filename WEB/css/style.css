@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #111;
+  background: #0a0a0a;
   padding: 20px 0;
   height: 90px;
 }
@@ -297,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Nav Meu Styling */
 .nav-menu a {
-  padding: 10px 15px;
+  padding: 10px 11px;
   text-decoration: none;
   display: inline-block;
   color: #fff;
@@ -503,7 +503,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-text {
-  line-height: 26px;
+  line-height: 30px;
 }
 
 #about .about-text:last-child {
@@ -525,15 +525,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .service-icon {
   float: left;
   background: #03C4EB;
-  padding: 16px;
+  width: 65px;
+  height: 65px;
+  padding: 15px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #03C4EB;
+  border: 1px solid #ffffff;
+  box-shadow: 10px 1px 15px #03c4eba9 ;
 }
 
 #services .service-icon i {
   color: #fff;
   font-size: 24px;
+  margin-top: 3px;
 }
 
 #services .service-item:hover .service-icon {
@@ -604,7 +608,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #tarifas{
-  font-family: 'Poppins', sans-serif;
+  padding: 80px 0px 60px;
 }
 
 .knowledge {
@@ -700,23 +704,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .price__cta{
-  display: block;
-  padding: 20px 0;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
   border-radius: 10px;
-  text-decoration: none;
-  background-color: var(--bg-cta);
-  font-weight: 600;
-  color: var(--color-cta);
-  box-shadow: 0 0 1px rgba(0, 0, 0, .5);
 }
-
-
-
-
-
-
-
-
 
 /* Subscribe Section
 --------------------------------*/
@@ -754,11 +755,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 10px;
   border: 2px solid #fff;
   color: #fff;
+  border-radius: 10px;
 }
 
 #subscribe .subscribe-btn:hover {
   background: #03C4EB;
   border: 2px solid #03C4EB;
+  box-shadow: 1px 1px 20px #03c4eba9 ;
 }
 
 /* Portfolio Section
@@ -836,57 +839,61 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #team {
-  padding: 80px 0;
-  background-color: royalblue;
-  color: #111;
+  background: rgb(231, 231, 231);
+  padding: 80px 0 60px 0;
 }
 
-.testimony__container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.testimony__body{
-  width: 400px;
+#team .member {
   text-align: center;
-  padding: 25px;
+  margin-bottom: 20px;
 }
 
-.testimony__texts {
-  padding-top: 50px;
+#team .member .pic {
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
 }
 
-/*.testimony__review {
-}*/
-
-.testimony__body--show{
-  pointer-events: unset;
-  opacity: 1;
-  transition: opacity 1.5s ease-in-out;
+.team__content {
+  gap: 5fr;
 }
 
-.testimony__img{
-  margin: auto;
-  width: 250px; 
-  height: 250px;
-  border-radius: 50%;
-  object-fit: cover;
+#team .member .pic img {
+  max-width: 100%;
 }
 
-.testimony__course{
-  color: rgb(0, 0, 0);
-  display: inline-block;
-  padding: 4px;
-  margin-bottom: 3px;
-  border-radius: 50px;
-  background-color: white;
+#team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
 }
 
-.social {
-  margin-bottom: 10px;
+#team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
 }
-*/
+
+#team .member .social {
+  margin-top: 15px;
+}
+
+#team .member .social a {
+  color: #b3b3b3;
+}
+
+#team .member .social a:hover {
+  color: #03C4EB;
+}
+
+#team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+.team__content {
+  display: flex;
+  justify-content: center;
+}
 /* Contact Section
 --------------------------------*/
 #contact {
@@ -956,6 +963,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
   background: #25d8fc;
+}
+
+.fa {
+  text-decoration: none;
+  color: black;
 }
 
 /*--------------------------------------------------------------
