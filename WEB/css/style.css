@@ -717,23 +717,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 
+#team {
+  padding: 80px 0;
+  background-color: royalblue;
+  color: #111;
+}
 
 .testimony__container{
-  display: grid;
-  grid-template-columns: 50px 1fr 50px;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .testimony__body{
-  display: grid;
-  grid-template-columns: 1fr max-content;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2em;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  opacity: 0;
-  pointer-events: none;
+  width: 400px;
+  text-align: center;
+  padding: 25px;
+}
+
+.testimony__texts {
+  padding-top: 50px;
+}
+
+.testimony__review {
 }
 
 .testimony__body--show{
@@ -743,31 +749,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .testimony__img{
+  margin: auto;
   width: 250px;
   height: 250px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: 20% 15%;
-}
-
-.testimony__texts{
-  max-width: 700px;
 }
 
 .testimony__course{
-  background-color: royalblue;
-  color: #fff;
+  color: rgb(0, 0, 0);
   display: inline-block;
   padding: 4px;
   margin-bottom: 3px;
   border-radius: 50px;
+  background-color: white;
 }
-
-.testimony__arrow{
-  width: 90%;
-  cursor: pointer;
-}
-
 
 .social {
   margin-bottom: 10px;
