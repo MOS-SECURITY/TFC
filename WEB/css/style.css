@@ -739,8 +739,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 50px;
 }
 
-.testimony__review {
-}
+/*.testimony__review {
+}*/
 
 .testimony__body--show{
   pointer-events: unset;
@@ -750,7 +750,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .testimony__img{
   margin: auto;
-  width: 250px;
+  width: 250px; 
   height: 250px;
   border-radius: 50%;
   object-fit: cover;

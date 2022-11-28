@@ -12,3 +12,4 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $insert_into_db = $connect_db->prepare("INSERT INTO formulario (nombre,correo,asunto,mensaje) VALUES ('$nombre','$email','$asunto','$mensaje')");
     $insert_into_db ->execute();
 }
+?>
