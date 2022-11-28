@@ -781,6 +781,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: table;
   overflow: hidden;
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 #portfolio .portfolio-item .details {
@@ -839,23 +840,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #team {
-  background: rgb(231, 231, 231);
+  background: rgb(255, 255, 255);
   padding: 80px 0 60px 0;
 }
 
 #team .member {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
+  height: 300px;
+  border-radius: 10px;
+
 }
 
 .team__content {
-  gap: 5fr;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #team .member .pic img {
@@ -886,14 +890,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .social i {
-  font-size: 18px;
+  font-size: 20px;
   margin: 0 2px;
 }
 
-.team__content {
+/* .team__content {
   display: flex;
   justify-content: center;
-}
+} */
 /* Contact Section
 --------------------------------*/
 #contact {
@@ -949,20 +953,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form input, #contact .form textarea {
-  border-radius: 0;
+  border-radius: 10px;
   box-shadow: none;
 }
 
 #contact .form button[type="submit"] {
   background: #03C4EB;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 8px 20px;
+  transition: all 0.5s ease 0s;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
 }
 
 #contact .form button[type="submit"]:hover {
   background: #25d8fc;
+  box-shadow: 1px 1px 20px #03c4eba9 ;
 }
 
 .fa {
