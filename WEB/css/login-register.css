@@ -1,0 +1,120 @@
+body{
+	background-image: linear-gradient(180deg, #ab8fe4 0, #8f7dde 25%, #6c6cd8 50%, #3b5cd2 75%, #004fcc 100%);
+	font-family: "Raleway", sans-serif;
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background-image: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Caja {
+	padding: 20px;
+}
+
+.animate__animated{
+	margin-bottom: 40px;
+}
+
+.login-box{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.form-register {
+    background: #18142a68;
+    padding: 50px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+	outline: 3px solid rgba(255, 255, 255, 0.712);
+    box-shadow: 7px 13px 50px rgba(255, 255, 255, 0.249);
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #03C4EB;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+
+  .tarifas {
+	background-color: #000000;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: block;
+	padding: 8px 20px;
+	color: #fff;
+	border-radius: 10px;
+	width: 100%;
+	border: none;
+	margin-bottom: 30px;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .form-register .botonlogin {
+	background-color: #03C4EB;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: block;
+	padding: 8px 20px;
+	color: #fff;
+	border-radius: 10px;
+	width: 100%;
+	text-align: center;
+	border: none;
+  }
+
+  .form-register .botonregist {
+	background-color: #ffdb15;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: block;
+	padding: 8px 20px;
+	color: rgb(136, 136, 136);
+	border-radius: 10px;
+	width: 100%;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+  }
+
+  .linkk:hover {
+	color: #03C4EB;
+  }

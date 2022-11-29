@@ -1,14 +1,16 @@
 <?php
 include('db.php');
+print_r($_POST);
 $usuario=$_POST['usuario'];
 $password=$_POST['password'];
 $correo=$_POST['correo'];
+$tarifa=$_POST['tarifa'];
 
 // Encriptamos contraseña
 
 //$password = hash('sha512' , $password);
 
-$insert_into_db = $connect_db->prepare("INSERT INTO registro (usuario,correo,contraseña) VALUES ('$usuario','$correo','$password')");
+$insert_into_db = $connect_db->prepare("INSERT INTO registro (usuario,correo,contraseña,tarifa) VALUES ('$usuario','$correo','$password','$tarifa')");
 $insertCorrecto=$insert_into_db ->execute();
 
 if($insertCorrecto){

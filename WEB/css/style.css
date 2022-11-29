@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/hero.jpeg) top center fixed;
+  background: url(../images/hero.jpeg) top center fixed;
   background-size: cover;
 }
 
@@ -487,7 +487,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background: url(../img/soporte_informatico.jpg) no-repeat;
+  background: url(../images/soporte_informatico.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -513,7 +513,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/cpd.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../images/cpd.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -734,9 +734,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/contrato.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/contrato.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0;
+  margin-bottom: 50px;
 }
 
 #subscribe .subscribe-title {
@@ -776,72 +777,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: 1px 1px 20px #03c4eba9 ;
 }
 
-/* Portfolio Section
+
+/* Video Section
 --------------------------------*/
-#portfolio {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/fondoportfolio.jpg") fixed center center;
-  padding: 80px 0;
-  }
-
-#portfolio .portfolio-item {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 260px;
-  width: 100%;
-  display: table;
-  overflow: hidden;
-  margin-bottom: 30px;
-  border-radius: 10px;
+#videos{
+  padding: 80px 0px 60px;
 }
 
-#portfolio .portfolio-item .details {
-  height: 260px;
-  background: #fff;
-  display: table-cell;
-  vertical-align: middle;
-  opacity: 0;
-  transition: 0.3s;
-  text-align: center;
-}
-
-#portfolio .portfolio-item .details h4 {
+#videos a {
+  background: #03C4EB;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
   font-size: 16px;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  -webkit-transform: translate3d(0, -15px, 0);
-  transform: translate3d(0, -15px, 0);
-  font-weight: 700;
-  color: #333333;
+  letter-spacing: 1px;
+  padding: 8px 20px;
+  transition: all 0.5s ease 0s;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
 }
 
-#portfolio .portfolio-item .details span {
-  display: block;
-  color: #666666;
-  font-size: 13px;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: transform 0.3s, opacity 0.3s;
-  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
-  -webkit-transform: translate3d(0, 15px, 0);
-  transform: translate3d(0, 15px, 0);
+#videos a:hover {
+  background: #25d8fc;
+  box-shadow: 1px 1px 20px #03c4eba9 ;
 }
-
-#portfolio .portfolio-item:hover .details {
-  opacity: 0.8;
-}
-
-#portfolio .portfolio-item:hover .details h4 {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-#portfolio .portfolio-item:hover .details span {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
 
 
 /* Testimonials Section

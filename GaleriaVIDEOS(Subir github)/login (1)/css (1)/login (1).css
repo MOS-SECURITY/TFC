@@ -1,0 +1,288 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+}
+
+form {
+	padding: 50px 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(206, 203, 203)
+}
+
+input {
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+
+body{
+	background-image:url("IMG/cpd.jpg");
+	width: 100%;
+	height:100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color:white;
+	
+}
+.mensaje{
+	width: 100%;
+	max-width: 350px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: left;
+	padding: 6px;
+	color: red;
+}
+
+h6 {
+	text-align: center;
+	padding: 12px;
+    color: rgb(206, 203, 203);
+    line-height: 20px;
+}
+.gabo{
+	padding: 50px 20px;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+header{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    background-color: rgba(0, 0, 0,.3);
+}
+header h1{
+    margin-left: 5px;
+    align-items: center;
+    width: calc(20% - 100px);
+    font-family: montez;
+    font-size: 55px;
+}
+header a{
+    margin-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.animate__animated{
+	text-align: left;
+    font-family: 'calibri';
+	margin-bottom: 40px;
+}
+
+.login-box{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+.form-register {
+    width: 500px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #03C4EB;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .inputs__login {
+	flex-direction: column;
+	display: flex;
+	gap: 20px;
+  }
+
+  .form-register .botonlogin {
+	background-color: #03C4EB;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: block;
+	padding: 8px 20px;
+	color: #fff;
+	border-radius: 10px;
+	width: 100%;
+	text-align: center;
+	outline: none;
+	border: none;
+	margin-top: 30px;
+  }
+
+  .form-register .botonregist {
+	background-color: #ffdb15;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1px;
+	display: block;
+	padding: 8px 20px;
+	color: rgb(136, 136, 136);
+	border-radius: 10px;
+	width: 100%;
+	text-align: center;
+	outline: none;
+	border: none;
+	cursor: pointer;
+  }
+
+  .linkk:hover {
+	text-decoration: none;
+	color: #03C4EB;
+  }
+
+@media only screen and (min-width:360px) and (max-width:757px){
+	form {
+		padding: 50px 20px;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 70px;
+		padding-top: 28px;
+		margin-bottom: 30px
+	}
+	input {
+		padding: 9px;
+		margin: auto;
+		margin-top: 12px;
+		font-size: 16px
+	}
+	body{
+		background-image:url("IMG/cpd.jpg");
+		max-width: 100%;
+		max-height: 200%;
+		background-attachment: fixed; 
+		background-repeat: no-repeat;
+		color:white;
+		
+	}
+
+}
+@media only screen and (min-width:280px) and (max-width:757px){
+	form {
+		padding: 50px 20px;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 70px;
+		padding-top: 28px;
+		margin-bottom: 30px
+	}
+	input {
+		padding: 9px;
+		margin: auto;
+		margin-top: 12px;
+		font-size: 16px
+	}
+	body{
+		background-image:url("IMG/cpd.jpg");
+		background-position: cover;
+		color:white;
+		
+	}
+
+}
+@media only screen and (min-width:760px) and (max-width:1180px){
+	form {
+		padding: 50px 20px;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 70px;
+		padding-top: 28px;
+		margin-bottom: 30px
+	}
+	input {
+		padding: 20px;
+		margin: auto;
+		margin-top: 12px;
+		font-size: 16px;
+		border-radius: 10px;
+	}
+	body{
+		background-image:url("IMG/cpd.jpg");
+		max-width: 100%;
+		max-height: 200%;
+		background-attachment: fixed; 
+		background-repeat: no-repeat;
+		color:white;
+		
+	}
+	.caja{
+		margin-top: 30%;
+	}
+	header h1{
+		margin-left: 10px;
+		align-items: center;
+		width: calc(20% - 100px);
+		font-family: montez;
+		font-size: 80px;
+	}
+}
