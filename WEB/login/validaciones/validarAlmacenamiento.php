@@ -1,5 +1,5 @@
 <?php
-include('db.php');
+include('../db.php');
 $usuario=$_POST['usuario'];
 $password=$_POST['password'];
 
@@ -14,10 +14,10 @@ $filas=mysqli_num_rows($resultado);
 
 if($filas){
   
-    header("location:descarga.html");
+    header("location:../paginadescargas/descargaAlmacenamiento.html");
 
 }else{
-    include("login.html");
+    header("location:../loginalmacenamiento.html");
 
    ?>
     <h1 class="bad">Usuario o contraseña incorrectos</h1><br>
