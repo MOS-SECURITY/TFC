@@ -2,7 +2,7 @@
 
 # INSTALACIÓN DE SOFTWARE
 
-apt install -y apache2 samba-common rsync isc-dhcp-client php7.4 javascript-common python3 curl openvpn
+apt install -y apache2 samba-common ssh openssh-server filezilla ftp rsync isc-dhcp-client php7.4 javascript-common python3 curl openvpn
 
 # INSTALACIÓN DE ANYDESK
 curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY | gpg --dearmor -o /etc/apt/trusted.gpg.d/anydesk.gpg
@@ -11,7 +11,7 @@ apt update -y
 apt install anydesk -y
 
 echo " "
-echo "Para trabajar con VPN deberás partir siempre desde el escritotio"
+echo "Para trabajar con VPN deberás estar en el escritorio y acceder a la carpeta MOS-VPN"
 echo " "
 read -p "Hola, escriba el nombre de usuario con el que trabaja: " user
 echo " "

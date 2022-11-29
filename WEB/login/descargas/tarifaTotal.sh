@@ -11,7 +11,7 @@ apt update -y
 apt install anydesk -y
 
 echo " "
-echo "Para trabajar con VPN deberás partir siempre desde el escritotio"
+echo "Para trabajar con VPN deberás estar en el escritorio y acceder a la carpeta MOS-VPN"
 echo " "
 read -p "Hola, escriba el nombre de usuario con el que trabaja: " user
 echo " "
