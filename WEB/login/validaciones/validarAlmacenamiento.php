@@ -17,7 +17,7 @@ if($filas){
     header("location:../paginadescargas/descargaAlmacenamiento.html");
 
 }else{
-    header("location:../loginalmacenamiento.html");
+    include("../loginalmacenamiento.html");
 
    ?>
     <h1 class="bad">Usuario o contraseña incorrectos</h1><br>

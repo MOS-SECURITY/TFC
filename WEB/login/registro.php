@@ -6,7 +6,7 @@ $correo=$_POST['correo'];
 
 // Encriptamos contraseña
 
-$password = hash('sha512' , $password);
+//$password = hash('sha512' , $password);
 
 $insert_into_db = $connect_db->prepare("INSERT INTO registro (usuario,correo,contraseña) VALUES ('$usuario','$correo','$password')");
 $insertCorrecto=$insert_into_db ->execute();

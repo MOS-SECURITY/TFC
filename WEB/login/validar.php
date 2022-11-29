@@ -1,11 +1,11 @@
 <?php
-include('../db.php');
+include('db.php');
 $usuario=$_POST['usuario'];
 $password=$_POST['password'];
 
 // Verificación de contraseña encriptada
 
-$password = hash('sha512' , $password);
+//$password = hash('sha512' , $password);
 
 $consulta="SELECT * FROM registro where usuario='$usuario'and contraseña='$password'";
 $resultado=mysqli_query($connect_db,$consulta);
@@ -14,10 +14,10 @@ $filas=mysqli_num_rows($resultado);
 
 if($filas){
   
-    header("location:../paginadescargas/descargaRemoto.html");
+    header("location:descarga.html");
 
 }else{
-    include("../loginRemoto.html");
+    include("login.html");
 
    ?>
     <h1 class="bad">Usuario o contraseña incorrectos</h1><br>
