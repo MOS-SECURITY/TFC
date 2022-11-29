@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 20px;
-  border-radius: 2px;
+  border-radius: 10px;
   transition: 0.5s;
   margin: 10px;
 }
@@ -531,7 +531,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50%;
   transition: 0.5s;
   border: 1px solid #ffffff;
-  box-shadow: 10px 1px 15px #03c4eba9 ;
+  box-shadow: 4px 1px 20px #03c4eb8f ;
 }
 
 #services .service-icon i {
@@ -668,6 +668,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   --bg-cta: #fff;
   --color-cta: #5454D4;
   --color-items: #696871;
+
 }
 
 .price__element--best{
@@ -686,25 +687,31 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: var(--color-plan);
   margin-bottom: 15px;
   font-weight: 300;
+  text-align: left;
 }
 
 .price__price{
+  text-align: left;
   font-size: 2.5rem;
   color: var(--color-price);
 }
 
 .price__items{
+  text-align: left;
   margin-top: 35px;
   display: grid;
-  gap: 1em;
-  font-weight: 300;
-  font-size: 1.2rem;
-  margin-bottom: 50px;
+  font-size: 14px;
+  margin-bottom: 20px;
   color: var(--color-items);
+}
+
+.price__features {
+  margin: 10px;
 }
 
 .price__cta{
   font-family: "Raleway", sans-serif;
+  width: 100%;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -717,6 +724,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #fff;
   color: #fff;
   border-radius: 10px;
+}
+
+.secundary {
+  color: #0a0a0a;
+  border: 1px solid #0a0a0a;
 }
 
 /* Subscribe Section
@@ -901,7 +913,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-  background: #f7f7f7;
+  background: #cfcfcf;
   padding: 80px 0;
 }
 
