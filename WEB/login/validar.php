@@ -17,15 +17,15 @@ echo $tarifa;
 
 // $filas=mysqli_num_rows($resultado);
 
-if($tarifa == "Tarifa 1"){
+if($tarifa == "tarifaCompleta"){
   
     header("location:descarga.html");
 
-}else if ($tarifa == "Tarifa 2"){
+}else if ($tarifa == "tarifaAlmacenamiento"){
 
     header("location:descargaAlmacenamiento.html");
 
-}else if ($tarifa == "Tarifa 3"){
+}else if ($tarifa == "tarifaRemoto"){
 
   header("location:descargaRemoto.html");
 

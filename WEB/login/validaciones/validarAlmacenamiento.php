@@ -5,7 +5,7 @@ $password=$_POST['password'];
 
 // Verificación de contraseña encriptada
 
-$password = hash('sha512' , $password);
+// $password = hash('sha512' , $password);
 
 $consulta="SELECT * FROM registro where usuario='$usuario'and contraseña='$password'";
 $resultado=mysqli_query($connect_db,$consulta);
