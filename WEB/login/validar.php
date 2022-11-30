@@ -7,21 +7,25 @@ $password=$_POST['password'];
 
 //$password = hash('sha512' , $password);
 
-$consulta="SELECT * FROM registro where usuario='$usuario'and contraseña='$password'";
-$consulta_tarifa="SELECT tarifa FROM registro";
-$resultado=mysqli_query($connect_db,$consulta);
+$consulta=$connect_db->query("SELECT * FROM registro where usuario='$usuario'and contraseña='$password'");
 
-$filas=mysqli_num_rows($resultado);
+foreach($consulta as $rr) {
+  $tarifa = $rr['tarifa'];
+};
 
-if($filas && $consulta_tarifa = "tarifa1"){
+echo $tarifa;
+
+// $filas=mysqli_num_rows($resultado);
+
+if($tarifa == "Tarifa 1"){
   
     header("location:descarga.html");
 
-}else if ($filas && $consulta_tarifa = "tarifa2"){
+}else if ($tarifa == "Tarifa 2"){
 
     header("location:descargaAlmacenamiento.html");
 
-}else if ($filas && $consulta_tarifa = "tarifa3"){
+}else if ($tarifa == "Tarifa 3"){
 
   header("location:descargaRemoto.html");
 
