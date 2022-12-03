@@ -1,0 +1,67 @@
+body{
+	background: #0f0c29;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+	font-family: "Raleway", sans-serif;
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background-image: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+table {
+    width: 50%;
+    margin: 0;
+    padding: 20px;
+    color: #000000;
+ }
+ th, td {
+    width: 10%;
+    vertical-align: top;
+    border: 1px solid;
+    padding: 0.2em;
+ }
+ th {
+    background: blanchedalmond;
+ }
+
+ td {
+    background: rgb(0, 0, 0);
+    color: blanchedalmond;
+ }
+
+.Caja {
+	padding: 20px;
+}
+
+.animate__animated{
+	margin-bottom: 40px;
+}
+
+.login-box{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.form-register {
+    background: #18142a68;
+    padding: 50px;
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+	outline: 3px solid rgba(255, 255, 255, 0.712);
+    box-shadow: 7px 13px 50px rgba(255, 255, 255, 0.249);
+  }
+
+  .linkk:hover {
+	color: #03C4EB;
+  }
+
