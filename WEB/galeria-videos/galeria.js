@@ -21,8 +21,18 @@ let data = [
         'name': 'vpn-video.mp4',
         'duration': '0.33',
     },
-
-    
+    {
+        'id': 'a4',
+        'title': 'Vulnerabilidad de Red',
+        'name': 'vRed-video.mp4',
+        'duration': '0.05',
+    },
+    {
+        'id': 'a5',
+        'title': 'Inyección SQL',
+        'name': 'vRed-video.mp4',
+        'duration': '0.05',
+    },
 
 ];
 
