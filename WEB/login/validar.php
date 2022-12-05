@@ -17,7 +17,7 @@ echo $tarifa;
 
 // $filas=mysqli_num_rows($resultado);
 
-if($tarifa == "Servicio Completos"){
+if($tarifa == "Servicios Completos"){
   
     header("location:descarga.html");
 

@@ -15,7 +15,6 @@ body{
 }
 
 table {
-    width: 50%;
     margin: 0;
     padding: 20px;
     color: #000000;
@@ -24,7 +23,7 @@ table {
     width: 10%;
     vertical-align: top;
     border: 1px solid;
-    padding: 0.2em;
+    padding: 15px;
  }
  th {
     background: blanchedalmond;
@@ -55,13 +54,20 @@ table {
 .form-register {
     background: #18142a68;
     padding: 50px;
-    border-radius: 100px;
+    border-radius: 10px;
     color: rgb(255, 255, 255);
 	outline: 3px solid rgba(255, 255, 255, 0.712);
     box-shadow: 7px 13px 50px rgba(255, 255, 255, 0.249);
   }
 
+  .linkk {
+	color: #03C4EB;
+	text-decoration: none;
+  }
+
+
   .linkk:hover {
 	color: #03C4EB;
+	text-decoration: none;
   }
 
