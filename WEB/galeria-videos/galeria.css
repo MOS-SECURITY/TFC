@@ -22,14 +22,6 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-    /* background-image: linear-gradient(180deg, #ab8fe4 0, #8f7dde 25%, #6c6cd8 50%, #3b5cd2 75%, #004fcc 100%);
-    min-height: 100vh;
-    background-image: var(--primary);
-    font-family: sans-serif;
-    color: var(--text);
-
-    display: flex;
-    align-items: center; */
 }
 
 .container {
@@ -142,3 +134,15 @@ body {
     font: 100 1rem sans-serif;
     padding: 0 .5rem;
 }
+
+.linkk {
+	text-decoration: none;
+	color: #03eb31;
+  }
+
+.linkk:hover {
+	text-decoration: none;
+	color: #eb2603;
+  }
+
+  
