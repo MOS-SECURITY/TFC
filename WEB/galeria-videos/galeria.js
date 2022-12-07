@@ -7,19 +7,19 @@ let data = [
         'id': 'a1',
         'title': 'Servicio SFTP',
         'name': 'sftp-video.mp4',
-        'duration': '1.56',
+        'duration': '0.22',
     },
     {
         'id': 'a2',
         'title': 'Servicio SSH',
         'name': 'ssh-video.mp4',
-        'duration': '0.52',
+        'duration': '0.12',
     },
     {
         'id': 'a3',
         'title': 'Servicio VPN',
         'name': 'vpn-video.mp4',
-        'duration': '0.33',
+        'duration': '0.8',
     },
     {
         'id': 'a4',
