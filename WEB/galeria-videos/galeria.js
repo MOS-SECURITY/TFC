@@ -11,8 +11,8 @@ let data = [
     },
     {
         'id': 'a2',
-        'title': 'Servicio SSH',
-        'name': 'ssh-video.mp4',
+        'title': 'Servicio SAMBA',
+        'name': 'smb-video.mp4',
         'duration': '0.12',
     },
     {
