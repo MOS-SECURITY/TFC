@@ -29,6 +29,28 @@ body{
 	left: calc(50% - 50px);
 }
 
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(206, 203, 203)
+}
+
+header h1{
+    margin-left: 5px;
+    align-items: center;
+    width: calc(20% - 100px);
+    font-family: montez;
+    font-size: 55px;
+}
+
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+
 .form-register {
     background: #18142a68;
     padding: 50px;
