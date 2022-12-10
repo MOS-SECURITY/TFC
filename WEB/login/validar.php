@@ -13,17 +13,18 @@ foreach($consulta as $rr) {
 
 if($tarifa == "Servicios Completos"){
   
-    header("location:descarga.html");
+   header("location:descarga.html");
 
 }else if ($tarifa == "Servicios de Almacenamiento"){
 
-    header("location:descargaAlmacenamiento.html");
+  header("location:descargaAlmacenamiento.html");
 
 }else if ($tarifa == "Servicios Remotos"){
 
   header("location:descargaRemoto.html");
 
 } else {
+ 
   header("location:login.html");
 
   ?>
